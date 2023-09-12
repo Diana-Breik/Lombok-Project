@@ -1,6 +1,7 @@
 package org.example;
 
 import lombok.AllArgsConstructor;
+import lombok.Builder;
 import lombok.Data;
 
 import java.util.ArrayList;
@@ -10,6 +11,7 @@ import java.util.ArrayList;
 
 @Data
 @AllArgsConstructor
+@Builder
 public class Course {
     private String id;
     private String name;

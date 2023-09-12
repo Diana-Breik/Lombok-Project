@@ -30,5 +30,20 @@ public class Main {
         System.out.println("new address for the third student : " + student3.getAdress());//get()
         System.out.println("-------------------");
         System.out.println("is the first student the same as the second student? " + student1.equals(student2));
+
+        System.out.println("-------------------");
+        System.out.println("-------------------");
+
+        Student newStudent = Student.builder().id("5").name("newStudent").adress("Bremen").grade(12).build();//builder()
+        Teacher newTeacher = Teacher.builder().id("a").name("ahmad").subject("Wirtschaft").build();//builder()
+        Course newCourse = Course.builder().id("25").name("Mathe").teacher(teacher2).students(students).build();//builder()
+        System.out.println("new Student: " + newStudent);
+        System.out.println("new Teacher: " + newTeacher);
+        System.out.println("new Course: " + newCourse);
+
+        System.out.println("-------------------");
+        System.out.println("-------------------");
+
+
     }
 }
