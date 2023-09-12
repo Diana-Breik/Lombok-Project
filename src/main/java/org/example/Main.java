@@ -44,6 +44,7 @@ public class Main {
         System.out.println("-------------------");
         System.out.println("-------------------");
 
+        System.out.println(newTeacher.withSubject("Science").withId("11"));//@with
 
     }
 }
